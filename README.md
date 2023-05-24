@@ -1,6 +1,6 @@
 
 
-# Mongoose Flights" Lab
+# Mongoose Flights Lab
 
 ## Intro
 
@@ -39,15 +39,15 @@ What folders and files we will we need to create as well?
 	 |`numberOfSeats`|`integer`|
 	 |`departingAirport`| `ref - airport_id`| 
 	 |`arrivalAirport`|`ref - airport_id`| 
+	 |`departure date/time` | Your choice! How do you think we should add this in? |
 	 
 	 
 	 Which of our models is the Parent, which is the Child? How are we connecting the two?
 
-12. Implement the following User Stories:
-	- AAU, I want to view a list of all flights (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
+4. Implement the following User Stories:
+	- As A User (AAU), I want to view a list of all flights and airports (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
 	
-	- AAU, I want to create flights by entering the information on a page (`new` functionality) that has a form and submitting it.
-
+	- AAU, I want to create flights by entering the information for Airports and Flights using a Query.js file that you will create
 	- AAU, I want to be able to access each view via a navigation bar at the top of the page with links to:
 		- `ALL FLIGHTS`, and
 		- `ADD FLIGHT`
