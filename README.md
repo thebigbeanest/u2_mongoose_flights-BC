@@ -1,6 +1,6 @@
 
 
-# Mongoose "Flights" Lab
+# Mongoose Flights" Lab
 
 ## Intro
 
@@ -19,14 +19,24 @@ What folders and files we will we need to create as well?
 1) Create a **config/database.js** module that connects to a database.
 
 
-2). Create a `Flight` Model with the following properties:
+2) Create a Model of Airport with the following properties:
 
-	| Property | Type | Validations | Default Value |
-	|---|---|---|---|
-	| `airline`| `String`| `enum` to include 'American', 'Southwest' & 'United'<br>(or your choices) | n/a | 
-	| `airport`| `String`| `enum` to include<br>'AUS', 'DFW', 'DEN', 'LAX' & 'SAN'<br>(or your choices) | 'DEN'<br>(or your choice) |
-	| `flightNo`| `Number`| Required<br>Between `10` and `9999` | n/a | 
-	| `departs`| `Date`| n/a | One year from date created | 
+	| Property | Type |
+	|---|---|
+	| `name`| `String`|  (Logan, LaGuardia, Heathrow, O'Hare, Pearson...)
+	| `location`| `String`| (Boston, New York, London, Chicago, Toronto...)
+	| `code`| `String`|    (LGN, LGA, HRT, OHR, YYZ...)
+
+
+
+3) Create a `Flight` Model with the following properties:
+
+	| Property | Type |
+	|---|---|
+	| `airline`| `String`| ('American', 'Southwest', 'Delta'...)
+	 |'flight number |`Integer`| 
+	  |---|---| 
+	   |---|---| 
 
 12. Implement the following User Stories:
 	- AAU, I want to view a list of all flights (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
