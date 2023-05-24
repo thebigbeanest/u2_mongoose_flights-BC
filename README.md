@@ -44,7 +44,9 @@ What folders and files we will we need to create as well?
 	 
 	 Which of our models is the Parent, which is the Child? How are we connecting the two?
 
-4. Implement the following User Stories:
+4. Seed your db with at least 4 airports and at least 7 flights. Use your Mongo shell, or your query.js file to Read all of your data before working with the User Stories tasks in the following prompt. 
+
+5. Implement the following User Stories:
 	- As A User (AAU), I want to view a list of all flights and airports (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
 	
 	- AAU, I want to be able to access the details for each of these objects via a Show route based on the object's ID
@@ -68,4 +70,6 @@ What folders and files we will we need to create as well?
 	- AAU, I want to view the list of flights by departure date in ascending order.
 	
 	- AAU, I want the flights in the list to not be displayed if the flight's departure date and time have passed.
+
+	- AAU, I want to see all flights from California to New York by descending price (hint - you may need to create a number of Flight objects that meet this requirement. You can use JFK and LGA for New York airports, and LAX and SFO for California's)
 
