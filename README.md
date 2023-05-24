@@ -4,24 +4,22 @@
 
 ## Intro
 
-For this lab, lets create and use a `Flight` model.
+For this lab, lets create a database of Flights and use a model of Flights and Airports.
 
-You'll begin by creating a `mongoose-flights` project.
+You'll begin by creating a `mongoose-flights` project using our usual commands (feel free to reference previous lessons for this!)
+```sh
+npm init -y
+npm i mongoose
+```
+
+What folders and files we will we need to create as well?
 
 ## Exercises
 
-
-2. Be sure to install the Node modules after you `cd` into the project.
-
-
-7. Create a **config/database.js** module that connects to a database.
-
-9. Verify that starting the Express server with `nodemon` console.logs out a successful connection to the database.
-
-10. Set up partial templates.
+1) Create a **config/database.js** module that connects to a database.
 
 
-11. Create a `Flight` Model with the following properties:
+2). Create a `Flight` Model with the following properties:
 
 	| Property | Type | Validations | Default Value |
 	|---|---|---|---|
