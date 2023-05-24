@@ -58,8 +58,8 @@ What folders and files we will we need to create as well?
 
 #### Hints:
 
-- Checkout the [`<input type="datetime-local">`
-](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local) to assist users in entering valid date/time values.
+- Checkout the Date datatype 
+](https://www.mongodb.com/docs/manual/reference/method/Date/) to assist users in entering valid date/time values.
 
 ## Bonuses
 
