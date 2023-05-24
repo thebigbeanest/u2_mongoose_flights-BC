@@ -60,7 +60,7 @@ What folders and files we will we need to create as well?
 
 #### Hints:
 
-- Checkout the Date datatype 
+- Checkout the [Date datatype 
 ](https://www.mongodb.com/docs/manual/reference/method/Date/) to assist users in entering valid date/time values.
 
 ## Bonuses
