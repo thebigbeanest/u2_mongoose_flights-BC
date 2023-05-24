@@ -37,8 +37,11 @@ What folders and files we will we need to create as well?
 	 |`flight number` |`Integer`| 
 	 |`price`|`float`| 
 	 |`numberOfSeats`|`integer`|
-	 |`departingAirport`|ref - airport_id`| 
+	 |`departingAirport`| `ref - airport_id`| 
 	 |`arrivalAirport`|`ref - airport_id`| 
+	 
+	 
+	 Which of our models is the Parent, which is the Child? How are we connecting the two?
 
 12. Implement the following User Stories:
 	- AAU, I want to view a list of all flights (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
