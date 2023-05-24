@@ -29,14 +29,16 @@ What folders and files we will we need to create as well?
 
 
 
-3) Create a `Flight` Model with the following properties:
+3) Create a `Flight` Model with the following properties, making sure its linked to the respective airports they'll be flying in and out of:
 
 	| Property | Type |
 	|---|---|
 	| `airline`| `String`| ('American', 'Southwest', 'Delta'...)
-	 |'flight number |`Integer`| 
-	  |---|---| 
-	   |---|---| 
+	 |`flight number` |`Integer`| 
+	 |`price`|`float`| 
+	 |`numberOfSeats`|`integer`|
+	 |`departingAirport`|ref - airport_id`| 
+	 |`arrivalAirport`|`ref - airport_id`| 
 
 12. Implement the following User Stories:
 	- AAU, I want to view a list of all flights (`index` functionality) that displays each flight's airline, airport, flight no., and departure date/time (consider formatting the `departs` property).
