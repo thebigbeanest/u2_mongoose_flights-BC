@@ -54,7 +54,7 @@ What folders and files we will we need to create as well?
 	- AAU, I want to be able to update the details for my Flights and Airports
 	
 	- AAU, I want to be able to delete any Flight and Airport
-	- 
+	
 
 #### Hints:
 
@@ -67,5 +67,5 @@ What folders and files we will we need to create as well?
 1. Code these additional User Stories:
 	- AAU, I want to view the list of flights by departure date in ascending order.
 	
-	- AAU, I want the flights in the list to be displayed using red text if the flight's departure date has passed.
+	- AAU, I want the flights in the list to not be displayed if the flight's departure date and time have passed.
 
