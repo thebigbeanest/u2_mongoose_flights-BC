@@ -16,7 +16,7 @@ What folders and files we will we need to create as well?
 
 ## Exercises
 
-1) Populate your **db/index.js** file that connects to a database.
+1) Populate your **db/index.js** file that connects to a database, we can call it "flightsDatabase".
 
 
 2) Create a Model of Airport with the following properties:
