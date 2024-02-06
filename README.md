@@ -2,6 +2,9 @@
 
 # Mongoose Flights HW
 
+![](https://i.pinimg.com/736x/17/a8/b0/17a8b05ff548d6003e9f00eb24e79e06.jpg)
+
+
 ## Intro
 
 For this lab, lets create a database of Flights and use a model of Flights and Airports.
