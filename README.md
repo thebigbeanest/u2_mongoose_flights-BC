@@ -1,6 +1,6 @@
 ### SEBR 0116
 
-# Mongoose Flights Lab
+# Mongoose Flights HW
 
 ## Intro
 
