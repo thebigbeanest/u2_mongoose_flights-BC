@@ -35,9 +35,9 @@ What folders and files we will we need to create as well?
 	| Property | Type |
 	|---|---|
 	| `airline`| `String`| ('American', 'Southwest', 'Delta'...)
-	 |`flight number` |`Integer`| 
-	 |`price`|`float`| 
-	 |`numberOfSeats`|`integer`|
+	 |`flight number` |`Number`| 
+	 |`price`|`Number`| 
+	 |`numberOfSeats`|`Number`|
 	 |`departingAirport`| `ref - airport_id`| 
 	 |`arrivalAirport`|`ref - airport_id`| 
 	 |`departure date/time` | Your choice! How do you think we should add this in? |
